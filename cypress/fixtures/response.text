@@ -1,0 +1,65 @@
+{
+  "body": {
+    "data": [],
+    "meta": {
+      "total": 0
+    },
+    "rels": []
+  },
+  "headers": {
+    "server": "nginx",
+    "date": "Mon, 19 Feb 2024 15:53:09 GMT",
+    "content-type": "application/json",
+    "transfer-encoding": "chunked",
+    "connection": "keep-alive",
+    "cache-control": "no-cache, private",
+    "x-content-type-options": "nosniff",
+    "x-xss-protection": "1; mode=block",
+    "strict-transport-security": "max-age=63072000; includeSubdomains;",
+    "content-security-policy": "default-src blob: 'self' *.projects-abroad.net fonts.googleapis.com www.google.com fonts.gstatic.com code.jquery.com maxcdn.bootstrapcdn.com ajax.googleapis.com cdnjs.cloudflare.com native.testing.equest.com www.youtube.com demo.docusign.net youtu.be player.vimeo.com docs.google.com 'unsafe-inline' 'unsafe-eval' data: font;frame-src 'self' *.amazonaws.com native.testing.equest.com sandbox.e-signlive.com;connect-src 'self' *.orangehrm.com;img-src * 'self' data: blob:",
+    "public-key-pins": "pin-sha256=\"blgmjf3Tb3C0sUqb7jo4axiZAnr327fX0ycrUGqjw2k=\";pin-sha256=\"yQhO6YqQX5Y/NxyHAjXnI3jOtYWUm/TtRr666RunXRg=\"; pin-sha256=\"puCdyuZdXoDc5jSdcGKU6mdjd0VNq16yoaO2BcDF36A=\"; max-age=63072000; includeSubDomains"
+  },
+  "status": 200,
+  "statusText": "OK",
+  "isOkStatusCode": true,
+  "requestHeaders": {
+    "Connection": "keep-alive",
+    "Cookie": "orangehrm=721ae4c9d150866daafa13a51624b57f",
+    "Host": "opensource-demo.orangehrmlive.com",
+    "Referer": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList",
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+    "accept": "*/*",
+    "accept-encoding": "gzip, deflate"
+  },
+  "duration": 346,
+  "allRequestResponses": [
+    {
+      "Request Body": null,
+      "Request Headers": {
+        "Connection": "keep-alive",
+        "Cookie": "orangehrm=721ae4c9d150866daafa13a51624b57f",
+        "Host": "opensource-demo.orangehrmlive.com",
+        "Referer": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+        "accept": "*/*",
+        "accept-encoding": "gzip, deflate"
+      },
+      "Request URL": "https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/pim/employees?limit=50&offset=0&model=detailed&nameOrId=mani&includeEmployees=onlyCurrent&sortField=employee.firstName&sortOrder=ASC",
+      "Response Body": "{\"data\":[],\"meta\":{\"total\":0},\"rels\":[]}",
+      "Response Headers": {
+        "server": "nginx",
+        "date": "Mon, 19 Feb 2024 15:53:09 GMT",
+        "content-type": "application/json",
+        "transfer-encoding": "chunked",
+        "connection": "keep-alive",
+        "cache-control": "no-cache, private",
+        "x-content-type-options": "nosniff",
+        "x-xss-protection": "1; mode=block",
+        "strict-transport-security": "max-age=63072000; includeSubdomains;",
+        "content-security-policy": "default-src blob: 'self' *.projects-abroad.net fonts.googleapis.com www.google.com fonts.gstatic.com code.jquery.com maxcdn.bootstrapcdn.com ajax.googleapis.com cdnjs.cloudflare.com native.testing.equest.com www.youtube.com demo.docusign.net youtu.be player.vimeo.com docs.google.com 'unsafe-inline' 'unsafe-eval' data: font;frame-src 'self' *.amazonaws.com native.testing.equest.com sandbox.e-signlive.com;connect-src 'self' *.orangehrm.com;img-src * 'self' data: blob:",
+        "public-key-pins": "pin-sha256=\"blgmjf3Tb3C0sUqb7jo4axiZAnr327fX0ycrUGqjw2k=\";pin-sha256=\"yQhO6YqQX5Y/NxyHAjXnI3jOtYWUm/TtRr666RunXRg=\"; pin-sha256=\"puCdyuZdXoDc5jSdcGKU6mdjd0VNq16yoaO2BcDF36A=\"; max-age=63072000; includeSubDomains"
+      },
+      "Response Status": 200
+    }
+  ]
+}
